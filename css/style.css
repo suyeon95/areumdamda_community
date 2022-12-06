@@ -1,0 +1,86 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #222;}
+body{font-family: 'RIDIBatang'; font-size: 14px; line-height: 24px; color: #222;}
+
+/*리디바탕*/
+   @font-face {font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+/* header */
+#header{width: 1320px; height: 192px; margin: 0 auto; position: relative; text-align: center; font-family: 'Noto Serif KR', serif; box-sizing: border-box;}
+#header ul li{float: left;}
+.header_link{position: absolute; right: 0; z-index: 99;}
+.header_link li a{display: block; padding: 10px 15px;}
+.header_link li a:hover{text-shadow: #f9c7d2 0 3px 3px;}
+.nav{position: absolute; 
+    top:20px; /*기준변경*/
+    width: 100%; height: 150px;}
+.nav li{text-align: center;  
+    float: left; width: 20%;}
+.nav li a{display: block; font-size: 25px; margin-top: 88px; padding: 30px 0; /*추가*/ }
+.nav li:nth-child(3) a{padding-top:0; margin: 0 0 20px 0;}
+.nav li a:hover{text-shadow: #f9c7d2 0 3px 3px;}
+
+/* banner */
+#banner{width: 100%; height: 850px; margin: 0 auto; background: url(../image/banner.jpg) no-repeat center top; background-size: cover;}
+
+/* text */
+#text{width: 100%; height: 420px; text-align: center; padding: 100px 0; box-sizing: border-box;}
+.px25{font-size: 25px;}
+.px60{font-size: 60px; margin: 50px 0 70px; font-family: 'Noto Serif KR', serif;}
+
+/* con1 */
+.blod{font-weight: bold;}
+
+#con1{width: 100%; height: 850px; margin: 0 auto 100px; background: url(../image/menu1.png) no-repeat center top;
+    overflow: hidden;
+
+}
+.con_inner{width: 1320px; height: 850px; box-sizing: border-box; margin: 0 auto;}
+.px65{font-size: 65px; line-height: 75px; font-family: 'Noto Serif KR', serif; margin-bottom: 75px;}
+.h30{line-height: 30px;}
+.left{float: left; width: 660px; box-sizing: border-box; padding: 260px 0 0 60px;}
+.px18{font-size: 18px; line-height: 28px;}
+.icon2{width: 500px;}
+.icon2 li{float: left; width: 20%; margin-top: 85px;}
+.right{float: right; width: 660px; box-sizing: border-box; padding: 610px 0 0 200px;}
+
+/* con2 */
+#con2{width: 100%; height: 850px; margin: 0 auto 100px; background: url(../image/menu2.png) no-repeat center top; overflow: hidden;}
+
+/* con3 */
+#con3{width: 100%; height: 850px; margin: 0 auto 100px; background: url(../image/menu3.png) no-repeat center top; overflow: hidden;}
+
+/* faq */
+#faq_bg{width: 100%; margin: 0 auto; background: url(../image/background4.jpg) no-repeat left bottom;}
+#faq{width: 1320px; margin: 100px auto 0;}
+.px90{font-family: 'Noto Serif KR', serif; font-size: 90px; font-weight: bold; text-align: right; padding-bottom: 50px;}
+
+#board { width: 100%; margin:50px auto; font-family: "Noto Sans";}
+#board>li { width:100%; margin-top: 15px; background: url(../images/Untitled-1.png) no-repeat 98% 25px;}
+
+.qa{font-size: 50px; font-weight: bold;}
+.q_text{font-size: 25px; font-weight: 400;}
+#search{display: block; width: 800px; height: 50px; padding-left: 15px; border: #222 1px solid; margin: 0 auto; background: url(../image/search.png) no-repeat 98% 50%;}
+
+#board li a {display:block; border:1px solid #222; padding:15px 60px;}
+/* #board li:last-child a{border-top:0;} */
+
+#board li div { width:100%; border:1px solid #222; border-top:0; padding:19px 120px;  box-sizing:border-box;  height:74px; display:none;}
+
+/*footer*/
+#footer{width: 100%; height: 383px; margin: 0 auto; background: url(../image/background5.jpg) no-repeat center top;}
+.footer_inner{width: 1320px; height: 100%; margin: 0 auto; box-sizing: border-box; padding-top: 100px;}
+.icon{float: right;}
+.icon li{float: left;}
+.icon li a{display: block; margin: 0 10px; opacity: 0.5;}
+.icon li a:hover{opacity: 1;}
+.footer_text{color: #555;}
+.footer_logo img{margin-bottom: 25px;}
+
+
+.top{position:fixed; bottom:50px; right:50px; display:none;}
+
